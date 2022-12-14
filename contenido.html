@@ -34,7 +34,8 @@
           o incluso una aplicación.</div>
         <div class="imagenes-1">
           <!--<img class="img2" src="images\Picture8.png" alt="" srcset="">-->
-          <div class="img2"><img class="zoom-images img2" id="imageZoom" src="Picture3.png" alt="A image to apply the ImageZoom plugin" ></div>
+          <div class="img2"><img class="zoom-images img2" id="imageZoom" src="Picture3.png"
+              alt="A image to apply the ImageZoom plugin"></div>
           <div class="lista">
             <ul>
               <li>Agrega el nombre con el que quieres manejar tu cuenta. Ejemplo: “Negocios de Giulio.”</li><br><br><br>
@@ -66,7 +67,8 @@
 
         <div class="cuerpo3">
           <!--<img src="images\Picture4.png" alt="" class="imgp3">-->
-          <div class="imgp3"><img class="zoom-images" id="imageZoom" src="Picture4.png" alt="A image to apply the ImageZoom plugin" ></div>
+          <div class="imgp3"><img class="zoom-images" id="imageZoom" src="Picture4.png"
+              alt="A image to apply the ImageZoom plugin"></div>
           <div class="textop3">Una cuenta de administrador define una serie de propiedades. <br> <br> <br>Y una
             propiedad es aquella que va a estar conectada a un sitio o aplicación que quieras analizar.<br> <br>
             <br>Ejemplo: <i>E-Commerce</i> - Ropa hombre y mujer.<br> <br> <br> Recuerda que tú decides qué nombre
@@ -163,7 +165,7 @@
         </div>
 
         <div class="cuerpo3">
-          <div class="textop6">Para verificar haz clic en “Informes” en la columna izquierda y posteriormente en
+          <div class="textop6">Para verificar haz clic en “Informes” en la columna izquierda, luego selecciona “En tiempo real” y posteriormente en
             “Resumen” para que puedas verificar los usuarios activos en tu <i>E-Commerce</i>.
 
             <div class="cuerpo7">Da clic en cada marcador de la imagen para saber qué otros datos te brinda el resumen
@@ -236,12 +238,13 @@
         <button class="btn_nav paso6">Paso 6</button>
         <button class="btn_nav final">Final</button>
 
-        <div class="cuerpo">Ingresa a Google Analytics asociando una cuenta de correo electrónico, para poder crear una
-          cuenta de comercio electrónico dentro de esta herramienta.
+        <div class="cuerpo">Ingresa a Google Analytics asociando una cuenta de correo electrónico, para poder asociar tu
+          comercio electrónico a Google Analytics.
         </div>
 
         <!--<img class="imagen-1" src="images\Picture1.png" alt="" srcset="">-->
-        <div class="imagen-1"><img class="zoom-images" id="imageZoom" src="Picture1.png" alt="A image to apply the ImageZoom plugin"></div>
+        <div class="imagen-1"><img class="zoom-images" id="imageZoom" src="Picture1.png"
+            alt="A image to apply the ImageZoom plugin"></div>
 
       </div>
     </div>
@@ -255,26 +258,26 @@
   <script src="./script.js"></script>
 
   <script src="js/vendor/jquery.min.js" type="text/javascript"></script>
-	<script src="js/image-zoom.js" type="text/javascript"></script>
+  <script src="js/image-zoom.js" type="text/javascript"></script>
 
 </body>
-  <script>
+<script>
 
-    var $ = jQuery.noConflict();
+  var $ = jQuery.noConflict();
 
-    $(document).ready(function(){
+  $(document).ready(function () {
 
-      // Image zoom plugin code
-      var zoomImage = $('#imageZoom');
-      var zoomImageExtra = $('#imageZoomExtra');
-      var zoomImagePlus = $('#imageZoomExtraPlus');
-      var zoomImages = $('.zoom-images');
+    // Image zoom plugin code
+    var zoomImage = $('#imageZoom');
+    var zoomImageExtra = $('#imageZoomExtra');
+    var zoomImagePlus = $('#imageZoomExtraPlus');
+    var zoomImages = $('.zoom-images');
 
-      zoomImage.imageZoom();
-      zoomImageExtra.imageZoom({zoom : 600});
-      zoomImagePlus.imageZoom({zoom : 800});
+    zoomImage.imageZoom();
+    zoomImageExtra.imageZoom({ zoom: 600 });
+    zoomImagePlus.imageZoom({ zoom: 800 });
 
-    zoomImages.each(function() {
+    zoomImages.each(function () {
       $(this).imageZoom();
     });
 
@@ -282,5 +285,6 @@
 
 </script>
 
-<script> $(document).ready(function(){ var zoomImages = $('.zoom-images'); zoomImages.each(function() { $(this).imageZoom(); }); }); </script>
+<script> $(document).ready(function () { var zoomImages = $('.zoom-images'); zoomImages.each(function () { $(this).imageZoom(); }); }); </script>
+
 </html>
